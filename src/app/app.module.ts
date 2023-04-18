@@ -6,6 +6,10 @@ import { AppComponent } from './app.component';
 import { PhotosModule } from './photos/photos.module';
 import { CardComponent } from './shared/components/card/card.component';
 import { CardModule } from './shared/components/card/card.module';
+import { SigninComponent } from './home/signin/signin.component';
+import { ErrorsModule } from './errors/errors.module';
+import { HomeModule } from './home/home.module';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -15,6 +19,9 @@ import { CardModule } from './shared/components/card/card.module';
     BrowserModule,
     AppRoutingModule,
     PhotosModule,
+    ErrorsModule,
+    HomeModule,
+    FormsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
